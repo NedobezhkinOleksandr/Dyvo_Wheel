@@ -1,0 +1,27 @@
+.footer {
+  &__spin {
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #A52A2A;
+    margin: 25px auto;
+    background-color: 	#ffdf00;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  &__reset {
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: #A52A2A;
+    margin: 10px auto;
+    background-color: 	#ffdf00;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+  }
+}

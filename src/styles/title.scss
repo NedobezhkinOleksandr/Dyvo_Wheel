@@ -1,0 +1,31 @@
+.title {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__name {
+    font-size: 2em;
+    color: #ffdf00;
+  }
+
+  &__start {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #ffdf00;
+    color: #A52A2A;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}
+
+
+
