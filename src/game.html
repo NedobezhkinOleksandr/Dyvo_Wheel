@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script type="module" src="index.js" defer></script>
+  <title>Wheel of Fortune</title>
+</head>
+<body>
+  <header class="header">
+    <canvas class="header__coin" id="animation__coin" width="100" height="100"></canvas>
+    <span class="header__score" id="mainScore"></span>
+  </header>
+  <main>
+    <div class="wheel">
+      <img
+        class="wheel__pointer"
+        src="./images/wheelPointer.png"
+        alt="wheel center"
+      >
+      <div class="wheel__pointer--score"></div>
+      <div class="wheel__container">
+        <div class="wheel__section wheel__section--1" data-value="2">200</div>
+        <div class="wheel__section wheel__section--2" data-value="50">76</div>
+        <div class="wheel__section wheel__section--3" data-value="500">12</div>
+        <div class="wheel__section wheel__section--4" data-value="2">200</div>
+        <div class="wheel__section wheel__section--5" data-value="100">62</div>
+        <div class="wheel__section wheel__section--6" data-value="50">81</div>
+        <div class="wheel__section wheel__section--7" data-value="2">200</div>
+        <div class="wheel__section wheel__section--8" data-value="75">74</div>
+        
+      </div>
+      <img class="wheel__center" src="./images/wheelCenter.png" alt="wheel center">
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="footer__spin" id="spin">Press to Spin</button>
+    <button class="footer__reset" id="reset">Reset</button>
+  </footer>
+  <div class="popup-message" id="popupMessage"></div>
+</body>
+</html>

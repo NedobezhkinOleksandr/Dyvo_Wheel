@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-typescript": "^7.23.3",
+    "gulp-babel": "^8.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  }
+}
